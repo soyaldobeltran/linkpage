@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+Pro:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 60px 30px;
+}
+main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+h1{
+    font-family: Source Serif Pro, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+p {
+    font-size: 12px;
+}
+nav{
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    position:fixed;
+    background-color: white;
+    width: 80%;
+    height: 80px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav .logo{
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/img/logo.jpeg);
+    border-radius: 100%;
+}
+nav .bio{
+    text-align: center;
+    justify-content: center;
+}
+.bio p{
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.section-links{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 25px;
+}
+.card{
+    width: 289px;
+    height: 80px;
+    border-radius: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.instagram{
+    background-color: #C13584;
+}
+.twitter{
+    background-color: #26A7DE;
+}
+.youtube{
+    background-color: #C4302B;
+}
+.tienda{
+    background-color: black;
+}
+/* links */
+a{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+/* BACKGROUND */
+.animate-background{
+    background: linear-gradient(238deg, #2319ed, #ed6b19);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    -o-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
