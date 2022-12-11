@@ -38,7 +38,7 @@ nav .logo{
     height: 70px;
     background-position: center;
     background-size: cover;
-    background-image: url(/img/logo.jpeg);
+    background-image: url(./img/logo.jpeg);
     border-radius: 100%;
 }
 nav .bio{
